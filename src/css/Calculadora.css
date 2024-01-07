@@ -1,0 +1,14 @@
+.contenedor-calculadora {
+    background: rgb(18, 35, 120);
+    background: linear-gradient(15deg, rgba(18, 35, 120, 1) 0%, rgba(143, 36, 58, 1) 100%);
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.calculadora-fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}

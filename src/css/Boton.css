@@ -1,0 +1,21 @@
+.calculadora-boton{
+    border: 2px solid white;
+    border-radius: 2em;
+    background-color: mediumvioletred;
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.2em;
+    min-width: 2em;
+}
+
+.calculadora-boton:hover{
+    background-color: midnightblue;}
+
+.operador{
+    background-color: brown;
+}
+
+.operador:hover{
+    background-color: maroon;
+}
