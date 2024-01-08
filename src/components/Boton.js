@@ -8,7 +8,8 @@ function Boton(props){
     }
 
     return(
-        <button className={`calculadora-boton${esOperador(props.children) ? " operador" : ""}`}>
+        <button className={`calculadora-boton${esOperador(props.children) ? " operador" : ""}`}
+        onClick={() => props.manejarClick(props.children)}>
             {props.children}
         </button>
     );
